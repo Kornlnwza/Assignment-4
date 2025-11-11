@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 105, 126);
+    color: rgb(238, 190, 103);
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.5cm;
+    font-weight: bold;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+.nav-menu a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 2em;
+}
+.nav-menu a:hover{
+    color: burlywood;
+}
